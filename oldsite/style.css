@@ -1,0 +1,176 @@
+html {
+	background: rgb(0,247,255);
+	background: linear-gradient(135deg,
+						rgba(249, 21, 125, .60)25%,
+						rgba(0, 255, 255, .60)75%);					
+}
+
+
+li {
+    display: inline;
+	float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+	background-color: #000000;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+a {
+    display: block;
+    padding: 8px;
+	font-size: xx-large;
+	font-family: "Lucida Console", Times, serif;
+	position: relative;
+	top: 40px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #17202A;
+}
+
+video {
+	text-align: left;
+	width: 125px;
+}
+
+div.zone {
+	position: relative;
+	left: 10%;
+	background-color: #051923;
+	width: 80%;
+	height: 100px;
+	border-style: solid;
+	border-color : #051923;
+}
+
+div.zone-actus {
+	position: relative;
+	left: 12.5%;
+	background-color: #051923;
+	width: 75%;
+	height: 550px;
+}
+
+div.infos-zone-actus {
+	position: relative;
+	width: 95%;
+	left: 30px;
+	background-color: #003554;
+	box-shadow: none!important;
+}
+	
+div.reload {
+	position: relative;
+	left: 10%;
+	background-color: #051923;
+	width: 500px;
+	height: 100px;
+}
+
+div.table-cart {
+	height: 500px;
+	width: 1000px;
+	border-collapse: collapse;
+
+}
+
+th {
+  background-color: #009E9E;
+  color: white;
+}
+
+th, td {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-family: "Lucida Console", Times, serif;
+}
+
+tr:hover {
+	background-color: pink;
+}
+
+p {
+	color: white;
+	font-family: "Lucida Console", Times, serif;
+	font-size: xx-large;
+	padding:20px;
+	
+}
+
+h3 {
+	color: white;
+	font-family: "Lucida Console", Times, serif;
+	padding: 5px;
+}
+
+h4 {
+	color: white;
+	font-family: "Lucida Console", Times, serif;
+	padding: 5px;
+}
+
+h5 {
+	font-family: "Lucida Console", Times, serif;
+	padding: 5px;
+	color: white;
+	font-size: large;
+}
+
+
+h6 {
+	font-family: "Lucida Console", Times, serif;
+	padding: 5px;
+	color: white;
+	font-size: large;
+}
+
+div.case-sweat {
+	position: relative;
+	background-color: #051923;
+	width: 300px;
+	height: 500px;
+	left: 12.5%;
+	z-index:-1;
+}
+
+div.case-tshirt {
+	position: relative;
+	background-color: #051923;
+	width: 200px;
+	height: 500px;
+	left: 75%;
+	z-index:-1;
+}
+
+div.case-mug {
+	position: relative;
+	background-color: #051923;
+	width: 200px;
+	height: 500px;
+	left: 50%;
+	z-index:-1;
+}
+
+div.case-totebag {
+	position: relative;
+	left: 10%;
+	background-color: #051923;
+	width: 200px;
+	height: 500px;
+	z-index:-1;
+}
