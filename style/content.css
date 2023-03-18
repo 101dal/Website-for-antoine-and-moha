@@ -1,0 +1,9 @@
+#content {
+    min-height: 80vh;
+    height: 100%;
+    font-size: 10ph;
+    background: linear-gradient(135deg,
+						rgba(249, 21, 125, .60)25%,
+						rgba(0, 255, 255, .60)75%);
+    width: 100vw;
+}
