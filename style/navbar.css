@@ -13,8 +13,8 @@
 
 .button-nav {
   margin: 0;
-  display: -ms-inline-grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: inline;
+  justify-content: space-between;
   align-items: center;
   height: 15vh;
 }
@@ -65,4 +65,16 @@
 
 .active {
   background-color: #206695;
+}
+
+.panier {
+  border-radius: 100%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.panier img {
+  max-width: 120%;
+  max-height: 120%;
 }
