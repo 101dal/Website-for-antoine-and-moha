@@ -1,6 +1,7 @@
-function redirect(e,t) {
-    $("#content").load(e);
-    $('.navbutton').removeClass('active');
-    $(t).addClass('active');
-    console.log("Redirected to " + e);
-}
+$(function redirect() {
+  var includes = $('[data-include]')
+  $.each(includes, function () {
+    var file = 'views/' + $(this).data('include') + '.html'
+    $(this).load(file)
+  })
+})
