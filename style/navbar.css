@@ -20,6 +20,7 @@
 }
 
 .navbutton {
+  flex: 1;
   height: 15vh;
   width: 35vh;
   padding: 1vw 2vw;
