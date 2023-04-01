@@ -6,7 +6,6 @@
 }
 
 .video-icon {
-  height: 20vh;
   margin-left: 2vw;
   margin-right: 4vw;
 }
@@ -21,8 +20,7 @@
 
 .navbutton {
   flex: 1;
-  height: 15vh;
-  width: 35vh;
+  height:100%;
   padding: 1vw 2vw;
   font-size: 5vh;
   font-weight: bold;
